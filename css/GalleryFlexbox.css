@@ -1,0 +1,36 @@
+body {
+  min-height: 100vh;
+  font: 14px Comic Sans MS;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 25px;
+  border-radius: 25px;
+  background: pink;
+  color: black;
+  min-height: 200px;
+  width: 100%;
+}
+
+img {
+	/*min-width: 60px;
+	max-width: 100px;*/
+	border: 1px solid black;
+  align-items: flex-start;
+}
+
+li {
+	list-style: none;
+}
+
+header, footer {
+  width: 100%;
+  background: navy;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+}
