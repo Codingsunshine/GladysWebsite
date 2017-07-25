@@ -1,0 +1,24 @@
+/*font-family: 'Libre Baskerville', serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Gentium Basic', serif;*/
+
+body {
+  min-height: 100%;
+  font: 14px Comic Sans MS;
+  margin: 0 auto;
+  font-family: 'Gentium Basic', serif;
+}
+
+.flex-container {
+  margin: 1em 0;
+  border: 1px solid black;
+  display: flex;
+}
+
+div {
+  border: 1px solid black;
+}
+
+h1 {
+	font-family: 'Libre Baskerville', serif;
+}

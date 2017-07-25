@@ -9,8 +9,8 @@ Colors:
 
 Logical Structure of Document:
         1.  Gallery
-            a.  Classes Used: flex-container
-            b.  Id's Used:
+            a.  Classes Used: flex-container*topnav*box-offerings*box-footer
+            b.  Id's Used: myTopnav*img-special*img-landscape*img-town*img-seasonal*img-annual
             c.  JS Used:
 
         
@@ -24,15 +24,18 @@ Readability Index End-->
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Contact Us</title>
+  <title>Our Services</title>
   <meta name="description" content="Gladys Gardens Services">
   <meta name="author" content="Created by Lockwola">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="./css/services.css">
+  <link href="https://fonts.googleapis.com/css?family=Gentium+Basic|Libre+Baskerville|Libre+Franklin:300,300i,400,600,700,800" rel="stylesheet">
 </head>
 <body>
+
 <!-- Nav Container - Begin -->
+
   <div class="topnav" id="myTopnav">
   <a href="./index.html">Home</a>
   <a href="./gallery.html">Gallery</a>
@@ -42,18 +45,65 @@ Readability Index End-->
   <input id="srchbar" type="search" placeholder="Search">
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
+
  <!-- Nav Container - End -->
 
-  <!-- Primary Page Layout -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Services</h4>
-        <p>Service 1</p>
-      </div>
-    </div>
-  </div>
+<!-- Primary Page Begin -->
+<!-- Services Container - Begin -->
 
-<!-- End Document -->
+ <section class="flex-container">
+      <div class="box-offerings"  id="img-special">
+          <article>
+          <h1>Special Occasions</h1>
+          <p>Paragraph about special occasion services goes here</p>
+          </article>
+      </div>
+
+      <div class="box-offerings" id="img-landscape">
+          <article>
+          <h1>Landscape Design</h1>
+          <p>Paragraph about landscape design goes here</p>
+          </article>
+      </div>
+
+      <div class="box-offerings" id="img-town">
+          <article>
+          <h1>Out of Town Watering Services</h1>
+          <p>Paragraph about out of town watering services goes here</p>
+          </article>
+      </div>
+
+      <div class="box-offerings" id="img-seasonal">
+          <article>
+          <h1>Seasonal Pot Rotation</h1>
+          <p>Paragraph about seasonal pot rotation services goes here</p>
+          </article>
+      </div>
+
+      <div class="box-offerings" id="img-annual">
+          <article>
+          <h1>Annual Plantings</h1>
+          <p>Paragraph about annual planting services goes here</p>
+          </article>
+      </div>
+    </section>
+
+<!-- Services Container - End -->
+<!-- Footer - Begin -->
+
+      <footer class='flex-container'>
+      <div class="box-footer">
+          <p>Like Us on Facebook!</p>
+      </div>
+      <div class="box-footer">
+          <p>Sign Up for Special Announcements</p>
+      </div>
+      <p>copyright information</p>
+    </footer>
+
+<!-- Footer - End -->
+<!-- Primary Page End -->
+
 </body>
 </html>
+<!-- End Document -->

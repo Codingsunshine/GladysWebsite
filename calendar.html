@@ -1,3 +1,23 @@
+<!--Readability Index - Begin-
+
+Fonts:
+
+
+Colors:
+
+
+
+Logical Structure of Document:
+        1.  Gallery
+            a.  Classes Used: flex-container*calendar*calendar-detail
+            b.  Id's Used: myTopnav*
+            c.  JS Used:
+
+        
+
+Readability Index End-->
+<!-- Primary Page Layout - Begin -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +27,12 @@
   <meta name="author" content="Created by Lockwola">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="./css/calendar.css">
+  <link href="https://fonts.googleapis.com/css?family=Gentium+Basic|Libre+Baskerville|Libre+Franklin:300,300i,400,600,700,800" rel="stylesheet">
 </head>
+
 <body>
+
 <!-- Nav Container - Begin -->
   <div class="topnav" id="myTopnav">
   <a href="./index.html">Home</a>
@@ -22,15 +46,20 @@
  <!-- Nav Container - End -->
 
   <!-- Primary Page Layout -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Calendar</h4>
-        <p>Calendar 1</p>
-      </div>
-    </div>
-  </div>
+  <section class="flex-container">
 
-<!-- End Document -->
+    <div class="calendar">
+          <h4>Come and Check Us Out!</h4>
+          <iframe src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=qb6tui2puvrjb4avd3sllst66g%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FChicago" style="border-width:0" width="650" height="400" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <div class="calendar-detail">
+      <p>This section will show details of the clandar entry that you selected</p>
+    </div>
+
+  </section>
+
 </body>
+  <!-- Primary Page Layout - End -->
+
 </html>
+<!-- End Document -->
