@@ -2,6 +2,13 @@
 font-family: 'Libre Franklin', sans-serif;
 font-family: 'Gentium Basic', serif;*/
 
+
+.box-top-logo {
+background-image: url("../images/Logo/GladysLogo.jpg");
+height: 400px;
+width: 100%;
+}
+
 body {
   min-height: 100%;
   font: 14px Comic Sans MS;
