@@ -10,32 +10,37 @@ body {
   background: #EDF2FA;
 }
 
-/*section {
-  width: 960px;
-  display: flex;
-  flex-wrap: wrap;
-}*/
-
 .flex-container {
   display: inline-flex;
   flex-wrap: wrap;
-  width: 960px;
+  width: 1202px;
 }
 
 .row {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-height: 400px;
-  max-width: 900px;
+  max-height: 450px;
+  width: 1250px;
+  margin: 0;
+  padding: 0;
 }
 
-
-.box-column {
+.column-small {
   display: flex;
   flex-flow: column;
   flex-wrap: wrap;
-  height: 400px;
+  height: 450px;
+  width: 250px;
+
+}
+
+.column-large {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  height: 450px;
+  width: 402px;
 
 }
 
@@ -45,13 +50,17 @@ h1 {
 }
 
 .med-img {
-  height: 400px;
+  height: 402px;
   width: 400px;
+  border: solid 1px black;
+
 }
 
 img {
-  height: 200px;
-  width: 200px;
+  height: 202px;
+  width: 250px;
+  border-left: solid 1px black;
+  border-bottom: inset 2px grey;
 }
 
 section img { 

@@ -4,9 +4,12 @@ font-family: 'Gentium Basic', serif;*/
 
 
 .box-top-logo {
-background-image: url("../images/Logo/GladysLogo.jpg");
-height: 400px;
-width: 100%;
+	background-image: url("../images/Logo/GladysLogo.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-bottom: 0;
+	height: 400px;
+	background-position: center;
 }
 
 body {
@@ -20,6 +23,8 @@ body {
   margin: 1em 0;
   border: 1px solid black;
   display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
 }
 
 div {
@@ -28,4 +33,60 @@ div {
 
 h1 {
 	font-family: 'Libre Baskerville', serif;
+}
+
+#special-img {
+	background-image: url("../images/Services/occasion-pic.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+#landscape-img{
+	background-image: url("../images/Services/landscape-pic.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+#watering-img {
+	background-image: url("../images/Services/watering-pic.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+#additional-img {
+	background-image: url("../images/Services/away-pic.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+.box-services{
+	color: red;
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 150px;
+	font-size: 20px;
+}
+
+.row {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-height: 450px;
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.column-small {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 250px;
+
 }
