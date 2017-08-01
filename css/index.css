@@ -75,11 +75,14 @@ h1 {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-height: 450px;
   width: 1200px;
   margin: 0;
   padding: 0;
   justify-content: space-between;
+}
+
+.services {
+	max-height: 450px;
 }
 
 .column-small {
@@ -89,4 +92,30 @@ h1 {
   height: 200px;
   width: 250px;
 
+}
+
+.testimonials {
+	height: 350px;
+	justify-content: space-around;
+}
+
+
+.box-testimonials {
+		width: 350px;
+	}
+
+blockquote { 
+	/*background: #484B52 
+	url(http://3.bp.blogspot.com/_7wsQzULWIwo/Swb5J3xbxyI/AAAAAAAACPk/gxR76OhXXaw/s1600/green-black-side.gif) ;*/
+	background-image: url("../images/Index/callout.png");
+	background-position: center; 
+	background-repeat:repeat-y; 
+	margin: 0 20px; 
+	padding: 20px 20px 20px 50px; 
+	color:#C7CACF; 
+	font: normal 0.9em Helvetica, verdana, serif, Georgia, "Times New Roman"; 
+} 
+.post blockquote p { 
+margin: 0; 
+padding-top: 10px; 
 }
