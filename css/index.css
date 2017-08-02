@@ -4,12 +4,13 @@ font-family: 'Gentium Basic', serif;*/
 
 
 .box-top-logo {
-	background-image: url("../images/Logo/GladysLogo.jpg");
+	background-image: url("../images/Logo/GladysLogo.gif");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin-bottom: 0;
 	height: 400px;
 	background-position: center;
+	min-width: 100%;
 }
 
 body {
@@ -18,6 +19,8 @@ body {
   margin: 0 auto;
   font-family: 'Gentium Basic', serif;
 }
+
+
 
 .flex-container {
   margin: 1em 0;
@@ -38,28 +41,34 @@ h1 {
 #special-img {
 	background-image: url("../images/Services/occasion-pic.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-position: center;
+	border-radius: 5px;
+
 }
 
 #landscape-img{
 	background-image: url("../images/Services/landscape-pic.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-position: center;
+	border-radius: 5px;
 }
 
 #watering-img {
 	background-image: url("../images/Services/watering-pic.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-position: center;
+	border-radius: 5px;
 }
 #additional-img {
 	background-image: url("../images/Services/away-pic.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 	background-size: 100%;
 	background-position: center;
+	border-radius: 5px;
 }
 
 .box-services{
@@ -72,7 +81,7 @@ h1 {
 }
 
 .row {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 1200px;
@@ -81,8 +90,15 @@ h1 {
   justify-content: space-between;
 }
 
-.services {
-	max-height: 450px;
+/*.services {
+	max-height: 250px;
+}*/
+
+.column-testimonials {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  width: 351px;
 }
 
 .column-small {
@@ -94,28 +110,81 @@ h1 {
 
 }
 
-.testimonials {
-	height: 350px;
+.testimonials .row {
 	justify-content: space-around;
+	height: 177px;
 }
 
 
 .box-testimonials {
-		width: 350px;
-	}
+	background-image: url("../images/Index/callout.png");
+	background-repeat: no-repeat;
+	opacity: .6;
+
+}
 
 blockquote { 
-	/*background: #484B52 
-	url(http://3.bp.blogspot.com/_7wsQzULWIwo/Swb5J3xbxyI/AAAAAAAACPk/gxR76OhXXaw/s1600/green-black-side.gif) ;*/
-	background-image: url("../images/Index/callout.png");
-	background-position: center; 
-	background-repeat:repeat-y; 
-	margin: 0 20px; 
-	padding: 20px 20px 20px 50px; 
-	color:#C7CACF; 
+	padding: 20px 10px 20px;
+	width: 270px;
+	height: 100px;
+	color: white; 
 	font: normal 0.9em Helvetica, verdana, serif, Georgia, "Times New Roman"; 
 } 
-.post blockquote p { 
-margin: 0; 
-padding-top: 10px; 
+
+blockquote p { 
+
 }
+
+/*
+
+Responsive Section
+
+base  sizes
+small phone: 320px;
+tablet: 512px;
+desktop: 960px;
+
+#wrapper {
+	width: 320px; mobile first lowest common denominator em looks at parent container for sizing rem looks at current element
+	border-radius: 25px;
+	margin: auto;
+	background: white;
+	padding: 1rem;
+	font-size: 1rem;
+}
+
+#phone {
+    background: magenta;
+    display: none;
+}
+
+
+
+@media (min-width: 320px){
+	#phone {
+        display: block;
+    }
+}
+
+@media (min-width: 320px){
+	#tablet {
+        display: block;
+    }
+    #phone {
+		display: none;
+	}
+}
+
+@media (min-width: 960px){
+	#desktop {
+	        display: block;
+	    }
+	#tablet {
+        display: none;
+    }
+	#phone {
+		display: none;
+	}
+}
+
+*/
