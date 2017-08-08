@@ -20,6 +20,46 @@ font-family: 'Gentium Basic', serif;*/
 	height: 400px;
 	background-position: center;
 	min-width: 100%;
+
+}
+
+.box-top-logo h3 {
+	padding: 20px;
+	background: white;
+	opacity: .5;
+	border: solid #f9f7f7 5px;
+	height: 20px;
+	width: 400px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	position: relative;
+	top: 40%;
+}
+
+.paragraph-box {	
+	height: 400px;
+	min-width: 100%;
+	background-color: #f9f7f7;
+	/*47aa2c*/
+}
+
+.paragraph {
+	height: 300px;
+	width: 900px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 25px;
+	margin: 0 auto;
+	color: #15ad0d;
+	border: double white 6px;
+	margin-top: 45px;
+
+}
+
+.paragraph p {
+	font-family: 'Gentium Basic', serif;
+	font-size: 30px;
 }
 
 body {
@@ -110,7 +150,7 @@ h1 {
 
 .services {
 	max-height: 500px;
-	background-color: #b5a989;
+	background-color: #e6eaa6;
 	margin: 0;
 }
 
@@ -152,6 +192,8 @@ blockquote {
 blockquote p { 
 
 }
+
+
 
 /*
 
