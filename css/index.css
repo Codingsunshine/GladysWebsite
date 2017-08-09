@@ -17,7 +17,7 @@ font-family: 'Gentium Basic', serif;*/
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin-bottom: 0;
-	height: 400px;
+	height: 500px;
 	background-position: center;
 	min-width: 100%;
 
@@ -29,21 +29,22 @@ font-family: 'Gentium Basic', serif;*/
 	opacity: .5;
 	border: solid #f9f7f7 5px;
 	height: 20px;
-	width: 400px;
+	width: 340px;
 	text-transform: uppercase;
 	margin: 0 auto;
 	position: relative;
 	top: 40%;
 }
 
-.paragraph-box {	
-	height: 400px;
+.paragraph-box {
+	
+	height: 500px;
 	min-width: 100%;
-	background-color: #f9f7f7;
 	/*47aa2c*/
 }
 
 .paragraph {
+	padding-top: 70px;
 	height: 300px;
 	width: 800px;
 	display: inline-block;
@@ -52,7 +53,6 @@ font-family: 'Gentium Basic', serif;*/
 	line-height: 25px;
 	margin: 0 auto;
 	color: #15ad0d;
-	border: double green 6px;
 	margin-top: 45px;
 
 }
@@ -79,8 +79,14 @@ body {
 
 h1 {
 	font-family: 'Libre Baskerville', serif;
-	padding-left: 3px;
-	padding-right: 102px;
+	font-size: 30px;
+	/*padding-right: 102px;*/
+	margin: 0;
+}
+
+h2 {
+	font-size: 15px;
+	margin: 0 0 0 17px;
 }
 
 #special-img {
@@ -135,7 +141,13 @@ h1 {
 }
 
 #first {
+	justify-content: flex-start;
+	width: 350px;
+}
+
+#nav-row {
 	justify-content: flex-end;
+	width: 610px;
 }
 
 .second {
@@ -263,7 +275,7 @@ desktop: 960px;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 28px 25px;
+    padding: 16px 22px;
     text-decoration: none;
     font-size: 17px;
 }
