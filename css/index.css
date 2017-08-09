@@ -45,21 +45,21 @@ font-family: 'Gentium Basic', serif;*/
 
 .paragraph {
 	height: 300px;
-	width: 900px;
+	width: 800px;
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 25px;
 	margin: 0 auto;
 	color: #15ad0d;
-	border: double white 6px;
+	border: double green 6px;
 	margin-top: 45px;
 
 }
 
 .paragraph p {
 	font-family: 'Gentium Basic', serif;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 body {
