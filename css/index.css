@@ -150,7 +150,7 @@ h2 {
 }
 
 .second {
-  height: 175px;
+  height: 225px;
   justify-content: space-between;
 }
 
@@ -158,6 +158,21 @@ h2 {
   height: 800px;
   justify-content: space-between;
   flex-wrap: nowrap;
+  background-color: #f9d986;
+}
+
+.fourth {
+  height: 400px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  background-color: yellow;
+}
+
+.fifth {
+  height: 50px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  background-color: green;
 }
 
 .services {
@@ -176,11 +191,20 @@ h2 {
 
 }
 
+.column-medium {
+  display: flex;
+  flex-flow: column;
+  height: 400px;
+  width: 450px;
+
+}
+
 #container {
 	width: 600px;
 	overflow: hidden;
 	margin: 50px auto;
-	background: #f9d986;
+	/*background: #f9d986;*/
+	
 }
 #container header {
 	width: 200px;
@@ -189,17 +213,18 @@ h2 {
 
 #container img {
 	padding-right: 80px;
+	width: -75%;
 }
  
 #container header h1 {
 	text-align: center;
-	font: 100 25px/1.5 Helvetica, Verdana, sans-serif;
+	width: 600px;
+	height: 44px;
 	
 }
  
 #container header p {
-	font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
-	text-align: justify;
+	font-size: 25px;
 }
  
 /*photobanner*/
@@ -208,15 +233,17 @@ h2 {
 	height: 200px;
 	width: 3550px;
 	margin-bottom: 80px;
+	background-image: url("../images/Testimonials/testimonialblankx.gif");
+	background-repeat: no-repeat;
 }
 
 /*keyframe animations*/
 .first {
-	-webkit-animation: bannermove 30s linear infinite;
-	   -moz-animation: bannermove 30s linear infinite;
-	    -ms-animation: bannermove 30s linear infinite;
-	     -o-animation: bannermove 30s linear infinite;
-	        animation: bannermove 30s linear infinite;
+	-webkit-animation: bannermove 45s linear infinite;
+	   -moz-animation: bannermove 45s linear infinite;
+	    -ms-animation: bannermove 45s linear infinite;
+	     -o-animation: bannermove 45s linear infinite;
+	        animation: bannermove 45s linear infinite;
 }
  
 @keyframes "bannermove" {
@@ -275,11 +302,11 @@ h2 {
 }
  
 .photobanner img {
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	transition: all 2s ease;
 }
  
 .photobanner img:hover {
@@ -295,19 +322,19 @@ h2 {
 	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
 
-/*blockquote { 
-	padding: 20px 10px 20px;
-	width: 270px;
+.column-location {
+	height: ;
+}
+
+.calendar {
+	background-image: url("../images/calendar.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-bottom: 0;
 	height: 100px;
-	color: black; 
-	font: normal 0.9em Helvetica, verdana, serif, Georgia, "Times New Roman"; 
-} 
-
-blockquote p { 
-
-}*/
-
-
+	background-position: center;
+	min-width: 100%;
+}
 
 /*
 
