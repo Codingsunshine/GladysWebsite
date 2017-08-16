@@ -155,14 +155,14 @@ h2 {
 }
 
 .third {
-  height: 800px;
+  height: 600px;
   justify-content: space-between;
   flex-wrap: nowrap;
   background-color: #f9d986;
 }
 
 .fourth {
-  height: 400px;
+  height: 450px;
   justify-content: space-between;
   flex-wrap: nowrap;
   background-color: yellow;
@@ -194,8 +194,9 @@ h2 {
 .column-medium {
   display: flex;
   flex-flow: column;
-  height: 400px;
+  height: 425px;
   width: 450px;
+  background: blue;
 
 }
 
@@ -204,6 +205,8 @@ h2 {
 	overflow: hidden;
 	margin: 50px auto;
 	/*background: #f9d986;*/
+	background-image: url("../images/Testimonials/testimonialblankx.gif");
+	background-repeat: no-repeat;
 	
 }
 #container header {
@@ -233,7 +236,6 @@ h2 {
 	height: 200px;
 	width: 3550px;
 	margin-bottom: 80px;
-	background-image: url("../images/Testimonials/testimonialblankx.gif");
 	background-repeat: no-repeat;
 }
 
@@ -326,16 +328,6 @@ h2 {
 	height: ;
 }
 
-.calendar {
-	background-image: url("../images/calendar.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-bottom: 0;
-	height: 100px;
-	background-position: center;
-	min-width: 100%;
-}
-
 /*
 
 Responsive Section
@@ -421,6 +413,17 @@ desktop: 960px;
 .topnav a.active {
     background-color: #4CAF50; 
     color: white;
+}
+
+.box-calendar {
+	background-image: url("../images/Calendar/calendar-350px.gif");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-bottom: 0;
+	height: 400px;
+	background-position: center;
+	min-width: 100%;
+	opacity: .8;
 }
 
 #4CAF50
