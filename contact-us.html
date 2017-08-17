@@ -14,27 +14,73 @@
 </head>
 
 <body>
-<!-- Nav Container - Begin -->
-  <div class="topnav" id="myTopnav">
-  <a href="./index.html">Home</a>
-  <a href="./services.html">Services</a>
-  <a href="./gallery.html">Gallery</a>
-  <a href="./about.html">About</a>
-  <a href="./calendar.html">Calendar</a>
-  <input id="srchbar" type="search" placeholder="Search">
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+<main id="wrapper">
+  <header class='flex-container header'>
+  <div class="empty-top">
   </div>
-<!-- Nav Container - End -->
+  <div class="row" id="first">
+    <div class="box-top-logo-butterfly">
+    </div>
+  </div>
 
-<!-- Primary Page Layout -->
+ <!-- Nav Container - Begin -->
+  <div class="row" id="nav-row"> 
+    <div class="topnav" id="myTopnav phone">
+    <a href="./index.html">Home</a>
+    <a href="./services.html">Services</a>
+    <a href="./gallery.html">Gallery</a>
+    <!--<a href="./about.html">About</a>-->
+    <a href="./contact-us.html">Contact Us</a>
+    <!--<a href="./calendar.html">Calendar</a>-->
+    </div>
+  </div>
+ <!-- Nav Container - End -->
+</header>
+
+<div id="form-container">
+  <h1>Gladys Gardens</h1>
+
+  <form>
+  <fieldset>
+  <legend>Contact Us</legend>
+
+  <label for='input-name'>Name</label>
+  <input id='name-input' type='text' name='name'
+        placeholder='Full Name' Value='' required />
+
+  <label for='input-email'>Email Address</label>
+  <input id='email-input' type='email' name='email'
+        placeholder='EmailAddres@domain.com' Value='' required />
+
+  <p>Services Interested In</p>
+  <input type="radio" name="shop-services" value="Landscape"> Landscape
+        <input type="radio" name="shop-services" value="Special Occasion"> Special Occasion
+        <input type="radio" name="shop-services" value="Pot Rotation"> Pot Rotation
+        <input type="radio" name="shop-services" value="Annual Plantings"> Annual Plantings
+        <input type="radio" name="shop-services" value="Watering"> Watering
+        <input type="radio" name="shop-services" value="General Question"> General Question
+  
+  <br><label for='input-message'>Enter your message here</label>
+          <textarea name='message' cols='30' rows='10'></textarea>
+
+  <input type='submit' value='Submit'>
+
+
+  </fieldset>
+  </form>
+</div>
+</main>
+
+
+<!-- Primary Page Layout 
   <section class="flex-container contactform">
     <div class="row">
       <form>
         First name:
         <input type="text" name="firstname">
-        <label for 'firstName'>Enter name: </label>
-        <input id='name-input' type='text' name='name'
-        placeholder='Enter Jessica' Value='' required />
+
+        
+        
         <br>
         Last name:
         <input type="text" name="lastname">
@@ -47,12 +93,7 @@
 
     <div class="row">
       <form>
-        <input type="radio" name="shop-services" value="Landscape"> Landscape
-        <input type="radio" name="shop-services" value="Special Occasion"> Special Occasion
-        <input type="radio" name="shop-services" value="Pot Rotation"> Pot Rotation
-        <input type="radio" name="shop-services" value="Annual Plantings"> Annual Plantings
-        <input type="radio" name="shop-services" value="Watering"> Watering
-        <input type="radio" name="shop-services" value="General Question"> General Question
+        
       </form>
     </div>
 
@@ -82,7 +123,8 @@
       </form>
     </div>
 
-  </section>
+  </section>-->
+
 <!-- Footer - Begin -->
 
     <footer class='flex-container'>
