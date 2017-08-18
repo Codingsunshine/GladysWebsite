@@ -54,7 +54,8 @@ font-family: 'Gentium Basic', serif;*/
 }
 
 .paragraph-box {
-	height: 325px;
+	background: #fffbdd;
+	height: 300px;
 	min-width: 100%;
 	/*47aa2c*/
 }
@@ -173,13 +174,14 @@ h3 {
 .second {
   height: 225px;
   justify-content: space-between;
+  background: #fcf5c4;
 }
 
 .third {
-  height: 600px;
+  height: 380px;
   justify-content: space-between;
   flex-wrap: nowrap;
-	background-image: url("../images/Testimonials/away-pic.jpg");
+  background-image: url("../images/Testimonials/grass-img.gif");
 	background-size: cover;
 	background-position: center;
 }
@@ -188,14 +190,14 @@ h3 {
   height: 450px;
   justify-content: space-between;
   flex-wrap: nowrap;
-  background-color: yellow;
+  background: #fcf5c4;;
 }
 
 .fifth {
   height: 50px;
   justify-content: space-between;
   flex-wrap: nowrap;
-  background-color: green;
+  background: #fffbdd;
 }
 
 .services {
@@ -218,14 +220,13 @@ h3 {
   flex-flow: column;
   height: 425px;
   width: 450px;
-  background: blue;
-
 }
 
 #container {
-	width: 600px;
+	opacity: 1;
+	width: 800px;
 	overflow: hidden;
-	margin: 50px auto;
+	margin: 30px auto;
 	background-image: url("../images/Testimonials/testimonialblankx.gif");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -233,27 +234,30 @@ h3 {
 	
 }
 
+
 #container img {
-	padding-right: 80px;
-	/*width: -75%;*/
+	margin-right: 200px;
+	width: 400px;
+	height: 300px;
 }
  
 #container h1 {
+	opacity: 1;
 	width: 600px;
 	font-family: 'Libre Baskerville', serif;
 	font-size: 23px;
 	margin: 0 auto;
 	text-align: center;
-	margin-bottom: 23px;
+	margin-bottom: 5px;
 	}
 
 #container p {
+	opacity: 1;
 	width: 600px;
 	font-family: 'Libre Franklin', serif;
 	font-size: 14px;
 	margin: 0 auto;
 	text-align: center;
-	margin-bottom: 23px;
 }
  
 /*photobanner*/
@@ -270,7 +274,7 @@ h3 {
 }*/
 
 /*keyframe animations*/
-.first {
+.first-move {
 	-webkit-animation: bannermove 45s linear infinite;
 	   -moz-animation: bannermove 45s linear infinite;
 	    -ms-animation: bannermove 45s linear infinite;
@@ -321,17 +325,18 @@ h3 {
 @-o-keyframes "bannermove" {
  0% {
    margin-left: 0px;
+   /*margin-left: 0px;*/
  }
  100% {
    margin-left: -2125px;
+   /*margin-left: -2125px;*/
  }
  
 }
-/*.photobanner {
-	height: 233px;
-	width: 3550px;
-	margin-bottom: 80px;
-}*/
+.photobanner {
+	height: 375px;
+	width: 600px;
+}
  
 .photobanner img {
 	-webkit-transition: all 2s ease;
@@ -446,7 +451,7 @@ desktop: 960px;
 }
 
 .box-calendar {
-	background-image: url("../images/Calendar/calendar-350px.gif");
+	background-image: url("../images/Calendar/calendar1-350px.gif");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin-bottom: 0;
@@ -456,6 +461,19 @@ desktop: 960px;
 	opacity: .8;
 }
 
+.box-map {
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: center;
+}
+
+.box-map ul {
+	list-style: none;
+}
+
+#map {
+	margin: 0 auto;
+}
 #4CAF50
 #b5a989
 #ddd
