@@ -16,6 +16,17 @@
   
 </head>
 <body>
+<!--Begin - Facebook Like Coding-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+<!--End - Facebook Like Coding-->
+
 <main id="wrapper">
   <header class='flex-container'>
   <div class="empty-top">
@@ -31,11 +42,11 @@
   <div class="column-split" id="nav-row"> 
     <div class="topnav" id="myTopnav phone">
     <a href="./index.html">Home</a>
-    <a href="./services.html">Services</a>
+    <a href="./comingsoon.html">Services</a>
     <a href="./gallery.html">Gallery</a>
-    <a href="./about.html">About</a>
+    <a href="./comingsoon.html">About</a>
     <a href="./contact-us.html">Contact Us</a>
-    <a href="./calendar.html">Calendar</a>
+    <a href="./comingsoon.html">Calendar</a>
     </div>
   </div>
  <!-- Nav Container - End -->
@@ -142,22 +153,20 @@
     <div id="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.4202949325518!2d-95.93240638539332!3d41.23440191342945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87938f10a633c711%3A0x78a7aae4ab274567!2s1008+Bancroft+St%2C+Omaha%2C+NE+68108!5e0!3m2!1sen!2sus!4v1499492735602" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
-      
-    
       </div>
 
 <!-- Map Container - End -->
 <!-- Event Calendar Container - Begin -->
         <div class="column-medium">
-        <div class="box-map">
+          <div class="box-map">
           <h3>Calendar of Events</h3>
-      </div>
-          <div class="box-calendar">
+          </div>
           <button type="button">View Our Calendar</button>
+          <div class="box-calendar">
           </div>
         </div>
-      </div>
-     </section>
+  </div>
+  </section>
 
 <!-- Event Calendar Container - End -->
 
@@ -166,8 +175,9 @@
     <footer class='flex-container'>
        <div class="row fifth">
       <div class="box-footer">
-          <p>Like Us on Facebook!</p>
+          <p>Like Us on Facebook!</p>    
       </div>
+      <div class="fb-like box-footer" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
       <div class="box-footer">
           <p>Sign Up for Special Announcements</p>
       </div>

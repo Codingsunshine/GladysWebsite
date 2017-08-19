@@ -7,10 +7,154 @@ body {
   font: 14px Comic Sans MS;
   margin: 0 auto;
   font-family: 'Gentium Basic', serif;
-  background: #EDF2FA;
+  max-width: 960px;
 }
 
 .flex-container {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+}
+
+.empty-top {
+  background-color: #b9d83e;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 0;
+  height: 1px;
+  background-position: center;
+  min-width: 100%;
+}
+
+.first-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 960px;
+  margin: 0;
+  padding: 0;
+  background-color: #b9d83e;
+}
+
+#first {
+  justify-content: flex-start;
+  width: 350px;
+}
+
+.column-split {
+  height: 55px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  background-color: #b9d83e;
+}
+
+#nav-row {
+  justify-content: flex-end;
+  width: 610px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  margin: auto;
+    background-color: #333;
+    overflow: hidden;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 22px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #b5a989;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+.opaque-box {
+  background: white;
+  opacity: .7;
+  vertical-align: center;
+  margin: 0 auto;
+  height: 60px;
+  width: 350px;
+}
+
+.opaque-box p {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 15px;
+}
+
+.opaque-box h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+.cs-box-top-logo {
+  background-image: url("../images/ComingSoon/soon-pic.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 0;
+  height: 500px;
+  background-position: center;
+  min-width: 100%;
+
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+  /*padding-right: 102px;*/
+  margin: 0 0 0 5px;
+}
+
+h2 {
+  font-size: 15px;
+  margin: 0 0 0 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------
+
+
+/*.flex-container {
   display: inline-flex;
   flex-wrap: wrap;
   width: 1202px;
@@ -72,3 +216,4 @@ section:hover img {
 section:hover img:hover {
   opacity: 1;
 }
+*/

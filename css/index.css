@@ -109,6 +109,7 @@ h3 {
 	margin-top: 50px;
 	font-family: 'Libre Baskerville', serif;
 	font-size: 23px;
+	margin-bottom: 25px;
 }
 
 #special-img {
@@ -117,6 +118,7 @@ h3 {
 	background-position: center;
 	border-radius: 50%;
 	vertical-align: bottom;
+	margin: 25px 0;
 
 }
 
@@ -125,6 +127,7 @@ h3 {
 	background-size: cover;
 	background-position: center;
 	border-radius: 50%;
+	margin: 25px 0;
 }
 
 #watering-img {
@@ -132,12 +135,14 @@ h3 {
 	background-size: cover;
 	background-position: center;
 	border-radius: 50%;
+	margin: 25px 0;
 }
 #additional-img {
 	background-image: url("../images/Services/away-pic.jpg");
 	background-size: cover;
 	background-position: center;
 	border-radius: 50%;
+	margin: 25px 0;
 }
 
 .box-services p {
@@ -194,7 +199,7 @@ h3 {
 }
 
 .fifth {
-  height: 50px;
+  height: 300px;
   justify-content: space-between;
   flex-wrap: nowrap;
   background: #fffbdd;
@@ -451,11 +456,11 @@ desktop: 960px;
 }
 
 .box-calendar {
-	background-image: url("../images/Calendar/calendar1-350px.gif");
+	background-image: url("../images/Calendar/calendar2-350px.gif");
 	background-repeat: no-repeat;
-	background-size: 100%;
 	margin-bottom: 0;
-	height: 400px;
+	height: 300px;
+	width: 250px;
 	background-position: center;
 	min-width: 100%;
 	opacity: .8;
@@ -474,6 +479,12 @@ desktop: 960px;
 #map {
 	margin: 0 auto;
 }
-#4CAF50
-#b5a989
-#ddd
+
+button {
+	display: inline-block;
+	border-radius: 5px;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: center;
+	margin-bottom: 15px;
+}
