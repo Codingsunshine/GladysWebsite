@@ -40,6 +40,7 @@ font-family: 'Gentium Basic', serif;*/
 
 }
 
+
 .box-top-logo h3 {
 	padding: 20px;
 	background: white;
@@ -145,14 +146,14 @@ h3 {
 	margin: 25px 0;
 }
 
-.box-services p {
+.box-services a {
+	text-decoration: none;
 	color: white;
 	font-family: 'Libre Baskerville', serif;
 	text-align: center;
-	vertical-align: middle;
 	line-height: 150px;
 	font-size: 15px;
-	margin: 0;
+	margin: 15px 0;
 	padding: 0;
 }
 
@@ -441,8 +442,6 @@ desktop: 960px;
     font-size: 17px;
 }
 
-
-
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #b5a989;
@@ -454,6 +453,7 @@ desktop: 960px;
     background-color: #4CAF50; 
     color: white;
 }
+
 
 .box-calendar {
 	background-image: url("../images/Calendar/calendar2-350px.gif");
@@ -480,11 +480,21 @@ desktop: 960px;
 	margin: 0 auto;
 }
 
-button {
+.button {
+	text-decoration: none;
+	border: solid 2px #9894ba;
 	display: inline-block;
 	border-radius: 5px;
 	margin: 0 auto;
 	text-align: center;
 	vertical-align: center;
 	margin-bottom: 15px;
+	background: #dddce5;
+	padding: 3px;
+}
+
+.signup-link {
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 15px;
 }

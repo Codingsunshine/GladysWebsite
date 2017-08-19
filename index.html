@@ -17,14 +17,14 @@
 </head>
 <body>
 <!--Begin - Facebook Like Coding-->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+   <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <!--End - Facebook Like Coding-->
 
 <main id="wrapper">
@@ -76,16 +76,16 @@
   <section class="flex-container services">
     <div class="row second">
       <div class="box-services column-small" id="special-img">
-          <p>Special Occasions</p>
+          <a href="./comingsoon.html">Special Occasions</a>
       </div>
       <div class="box-services column-small" id="landscape-img">
-          <p>Landscape Design</p>
+          <a href="./comingsoon.html">Landscaping</a>
       </div>
       <div class="box-services column-small" id="watering-img">
-          <p>Watering Services</p>
+          <a href="./comingsoon.html">Watering Services</a>
       </div>
       <div class="box-services column-small" id="additional-img">
-         <p>Additional Services</p>
+         <a href="./comingsoon.html">Additional Services</a>
       </div>
     </div>
   </section>
@@ -161,7 +161,7 @@
           <div class="box-map">
           <h3>Calendar of Events</h3>
           </div>
-          <button type="button">View Our Calendar</button>
+          <a class="button" href="./comingsoon.html">View Our Calendar</a>
           <div class="box-calendar">
           </div>
         </div>
@@ -177,11 +177,14 @@
       <div class="box-footer">
           <p>Like Us on Facebook!</p>    
       </div>
-      <div class="fb-like box-footer" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
       <div class="box-footer">
-          <p>Sign Up for Special Announcements</p>
+          <div class="fb-like" data-href="http://www.gladysgardens.com" data-width="50px" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="false">
+          </div>
       </div>
-      <p>copyright information</p>
+      <div class="box-footer">
+          <a class='signup-link'href="http://eepurl.com/c0eVub" target="_blank">Sign Up for Special Announcements</a>
+      </div>
+      <p>&copy2017 Lockwolla</p>
       </div>
     </footer>
 <!-- Footer - End -->
