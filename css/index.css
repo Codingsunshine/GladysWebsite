@@ -6,7 +6,7 @@ font-family: 'Gentium Basic', serif;*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 960px;
+  width: 100%;
   margin: 0;
   padding: 0;
   background-color: #b9d83e;
@@ -84,26 +84,26 @@ body {
   font: 14px Comic Sans MS;
   margin: 0 auto;
   font-family: 'Gentium Basic', serif;
-  max-width: 960px;
+  max-width: cover;
 }
 
 .flex-container {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  width: 960px;
+  width: 100%;
 }
 
 h1 {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 30px;
 	/*padding-right: 102px;*/
-	margin: 0 0 0 5px;
+	margin: 0 0 0 35px;
 }
 
 h2 {
 	font-size: 15px;
-	margin: 0 0 0 23px;
+	margin: 0 0 0 53px;
 }
 
 h3 {
@@ -161,7 +161,7 @@ h3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 960px;
+  width: 100%;
   margin: 0;
   padding: 0;
  
@@ -169,17 +169,17 @@ h3 {
 
 #first {
 	justify-content: flex-start;
-	width: 350px;
+	width: 50%;
 }
 
 #nav-row {
 	justify-content: flex-end;
-	width: 610px;
+	width: 50%;
 }
 
 .second {
   height: 225px;
-  justify-content: space-between;
+  justify-content: space-around;
   background: #fcf5c4;
 }
 
@@ -225,7 +225,21 @@ h3 {
   display: flex;
   flex-flow: column;
   height: 425px;
-  width: 450px;
+  width: 50%;
+}
+
+.box-footer {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column;
+  height: 60px;
+  width: 30%;
+  text-align: center;
+}
+
+.box-footer p {
+height: 16px;
+width: 200px;
 }
 
 #container {
@@ -293,7 +307,7 @@ h3 {
     margin-left: 0px;
  }
  100% {
-    margin-left: -2125px;
+    margin-left: -1000px;
  }
  
 }
@@ -303,7 +317,7 @@ h3 {
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -1000px;
  }
  
 }
@@ -313,7 +327,7 @@ h3 {
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -1000px;
  }
  
 }
@@ -323,7 +337,7 @@ h3 {
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -1000px;
  }
  
 }
@@ -334,14 +348,14 @@ h3 {
    /*margin-left: 0px;*/
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -500px;
    /*margin-left: -2125px;*/
  }
  
 }
 .photobanner {
 	height: 375px;
-	width: 600px;
+	width: 1200px;
 }
  
 .photobanner img {
@@ -437,7 +451,7 @@ desktop: 960px;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 16px 22px;
+    padding: 16px 25px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -452,6 +466,10 @@ desktop: 960px;
 .topnav a.active {
     background-color: #4CAF50; 
     color: white;
+}
+
+.topnav a{
+	margin-right: 15px;
 }
 
 
@@ -496,5 +514,4 @@ desktop: 960px;
 .signup-link {
 	display: inline-block;
 	text-decoration: none;
-	margin-top: 15px;
 }
