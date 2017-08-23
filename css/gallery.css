@@ -157,24 +157,27 @@ h2 {
 
 h3 {
   font-size: 25px;
-  margin: 40px auto;
-  width: 960px;
+  margin: 80px auto;
+  width: 300px;
   text-align: center;
-
+  background: #efd64a;
+  margin: 0 auto;
+  margin-top: 55px;
 }
 
 .med-img {
-  height: 324px;
+  height: 322px;
   width: 359px;
-  border-left: solid 1px black;
+  border-left: solid 1px #efd64a;
+  border-bottom: inset 2px #efd64a;
 
 }
 
 .small-img {
   height: 160px;
   width: 159px;
-  border-left: solid 1px black;
-  border-bottom: inset 2px grey;
+  border-left: solid 1px #efd64a;
+  border-bottom: inset 2px #efd64a;
 }
 
 section img { 
@@ -185,6 +188,14 @@ section:hover img {
 }
 section:hover img:hover {
   opacity: 1;
+}
+
+header {
+   background-image: url("../images/Gallery/yellowwoodx.gif");
+   height:200px;
+   width: 960px;
+   border-bottom: inset 3px #efd64a;
+
 }
 
 

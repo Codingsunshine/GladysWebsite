@@ -200,10 +200,10 @@ h3 {
 }
 
 .fifth {
-  height: 300px;
+  height: 60px;
   justify-content: space-between;
   flex-wrap: nowrap;
-  background: #fffbdd;
+  background: #f4e8bc;
 }
 
 .services {
