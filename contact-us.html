@@ -1,138 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Contact Us</title>
-  <meta name="description" content="Gladys Gardens Contact Us">
-  <meta name="author" content="Created by Lockwola">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="./css/contact-us.css">
-  <link href="https://fonts.googleapis.com/css?family=Gentium+Basic|Libre+Baskerville|Libre+Franklin:300,300i,400,600,700,800" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <meta name="description" content="Gladys Gardens Contact Us">
+    <meta name="author" content="Created by Lockwola">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/contact-us.css">
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Basic|Libre+Baskerville|Libre+Franklin:300,300i,400,600,700,800" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</head>
+  </head>
 
-<body>
-<main id="wrapper">
-  <header class='flex-container'>
-  <div class="empty-top">
-  </div>
-  <div class="first-row" id="first">
-    <div class="column-split">
-      <h1>Gladys Gardens</h1>
-      <h2>Natural.  Beautiful. Living Art.</h2>
-    </div>
-  </div>
+  <!-- Begin Document -->
+  <body>
 
- <!-- Nav Container - Begin -->
-  <div class="column-split" id="nav-row"> 
-    <div class="topnav" id="myTopnav phone">
-    <a href="./index.html">Home</a>
-    <a href="./comingsoon.html">Services</a>
-    <a href="./gallery.html">Gallery</a>
-    <a href="./comingsoon.html">About</a>
-    <a href="./contact-us.html">Contact Us</a>
-    <a href="./comingsoon.html">Calendar</a>
-    </div>
-  </div>
- <!-- Nav Container - End -->
-</header>
+      <main id="wrapper">
 
-<div class="form-container">
+        <header class='flex-container'>
+          <div class="empty-top">
+          </div>
+          <div class="first-row" id="first">
+            <div class="column-split">
+              <h1>Gladys Gardens</h1>
+              <h2>Natural.  Beautiful. Living Art.</h2>
+            </div>
+          </div>
 
-  <form action="https://www.enformed.io/2telnv83" method="POST">
-  <fieldset>
-  <legend>Contact Us</legend>
+          <!-- Nav Container - Begin -->
+          <div class="column-split" id="nav-row"> 
+            <div class="topnav" id="myTopnav phone">
+              <a href="./index.html">Home</a>
+              <a href="./comingsoon.html">Services</a>
+              <a href="./gallery.html">Gallery</a>
+              <a href="./comingsoon.html">About</a>
+              <a href="./contact-us.html">Contact Us</a>
+              <a href="./comingsoon.html">Calendar</a>
+            </div>
+          </div>
+          <!-- Nav Container - End -->
 
-  <label for='input-name'>Name</label>
-  <input id='name-input' type='text' name='name'
-        placeholder='enter full name' Value='' required />
+        </header>
 
-  <label for='input-email'>Email Address</label>
-  <input id='email-input' type='email' name='email'
-        placeholder='emailaddress@domain.com' Value='' required />
+        <!-- Form Container - Begin -->
+        <div class="form-container">
 
-  <label>Services Interested In</label>
-  <br>
-  <input type="radio" name="shop-services" value="Landscape"> Landscape
-        <input type="radio" name="shop-services" value="Special Occasion"> Special Occasion
-        <input type="radio" name="shop-services" value="Pot Rotation"> Pot Rotation
-        <input type="radio" name="shop-services" value="Annual Plantings"> Annual Plantings
-        <input type="radio" name="shop-services" value="Watering"> Watering
-        <input type="radio" name="shop-services" value="General Question"> General Question
-  
-  <br><label for='input-message'>Enter your message here</label>
-          <textarea name='message' cols='1000' rows='20'></textarea>
+          <form action="https://www.enformed.io/2telnv83" method="POST">
+            <fieldset>
+              <legend>Contact Us</legend>
 
-  <input type="submit" class="btn btn-default" value="Submit">
+              <label for='input-name'>Name</label>
+              <input id='name-input' type='text' name='name'
+                    placeholder='enter full name' Value='' required />
+
+              <label for='input-email'>Email Address</label>
+              <input id='email-input' type='email' name='email'
+                    placeholder='emailaddress@domain.com' Value='' required />
+
+              <label>Services Interested In</label>
+
+              <br>
+
+              <input type="radio" name="shop-services" value="Landscape"> Landscape
+                    <input type="radio" name="shop-services" value="Special Occasion"> Special Occasion
+                    <input type="radio" name="shop-services" value="Pot Rotation"> Pot Rotation
+                    <input type="radio" name="shop-services" value="Annual Plantings"> Annual Plantings
+                    <input type="radio" name="shop-services" value="Watering"> Watering
+                    <input type="radio" name="shop-services" value="General Question"> General Question
+              
+              <br>
+
+              <label for='input-message'>Enter your message here</label>
+                      <textarea name='message' cols='1000' rows='20'></textarea>
+
+              <input type="submit" class="btn btn-default" value="Submit">
 
 
-  </fieldset>
-  </form>
-</div>
-</main>
+            </fieldset>
+          <!-- Form Container - End -->
+          </form>
+      </div>
+    </main>
 
-
-<!-- Primary Page Layout 
-  <section class="flex-container contactform">
-    <div class="row">
-      <form>
-        First name:
-        <input type="text" name="firstname">
-        <br>
-        Last name:
-        <input type="text" name="lastname">
-      </form>
-    </div>
-
-    <div class="row">
-      <p>Interested Items</p>
-    </div>
-
-    <div class="row">
-      <form>
-        
-      </form>
-    </div>
-
-    <div class="row">
-      <form>
-        Email:
-        <label for='email'>Enter email: </label>
-        <input id='email-input' type='email' name='email'
-        placehold='examplename@gmail.com' value='' required />
-          <input type="text" name="email">
-          <br>
-          <label for='message'>Enter your message here:</label>
-          <textarea name='message' cols='30' rows='10'></textarea>'
-      </form>
-    </div>
-
-    <div class="row">
-      <form>
-        Message:
-        <input type="text" name="message">
-      </form>
-    </div>
-
-    <div class="row">
-      <form>
-      <input type="submit" value="Submit">
-      </form>
-    </div>
-
-  </section>-->
-
-<!-- Footer - Begin -->
-
+    <!-- Footer - Begin -->
+    
     <footer class='flex-container'>
       <p>&copy2017 Lockwolla</p>
     </footer>
 
-<!-- Footer - End -->
-<!-- End Document -->
+    <!-- Footer - End -->
+    <!-- End Document -->
 
-</body>
+  </body>
 </html>
 

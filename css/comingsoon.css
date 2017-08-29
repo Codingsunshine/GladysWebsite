@@ -57,34 +57,31 @@ body {
 /* Add a black background color to the top navigation */
 .topnav {
 	margin: auto;
-    background-color: #333;
-    overflow: hidden;
-
+  background-color: #333;
+  overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 16px 22px;
-    text-decoration: none;
-    font-size: 17px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 22px;
+  text-decoration: none;
+  font-size: 17px;
 }
-
-
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #b5a989;
-    color: black;
+  background-color: #b5a989;
+  color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4CAF50; 
-    color: white;
+  background-color: #4CAF50; 
+  color: white;
 }
 
 .opaque-box {
@@ -117,7 +114,6 @@ body {
 	height: 500px;
 	background-position: center;
 	min-width: 100%;
-
 }
 
 h1 {
@@ -131,5 +127,5 @@ h2 {
 	font-size: 15px;
 	margin: 0 0 0 23px;
 }
-----------------------------------------------------------------------------------------------
+
 

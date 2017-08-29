@@ -58,34 +58,31 @@ body {
 /* Add a black background color to the top navigation */
 .topnav {
   margin: auto;
-    background-color: #333;
-    overflow: hidden;
-
+  background-color: #333;
+  overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 16px 22px;
-    text-decoration: none;
-    font-size: 17px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 22px;
+  text-decoration: none;
+  font-size: 17px;
 }
-
-
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #b5a989;
-    color: black;
+  background-color: #b5a989;
+  color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4CAF50; 
-    color: white;
+  background-color: #4CAF50; 
+  color: white;
 }
 
 .opaque-box {
@@ -117,13 +114,11 @@ body {
   height: 500px;
   background-position: center;
   min-width: 100%;
-
 }
 
 h1 {
   font-family: 'Libre Baskerville', serif;
   font-size: 30px;
-  /*padding-right: 102px;*/
   margin: 0 0 0 5px;
 }
 
@@ -131,9 +126,6 @@ h2 {
   font-size: 15px;
   margin: 0 0 0 23px;
 }
-
---------------------------------------------------
-
 
 .row {
   display: flex;
@@ -143,7 +135,6 @@ h2 {
   margin: 0;
   padding: 0; 
 }
-
 
 .box-top-logo-butterfly {
   background-image: url("../images/Logo/butterfly-Gladys.gif");
@@ -159,7 +150,6 @@ legend {
   font-size: 25px;
 }
 
-
 .form-container {
   width: 960px;
   margin-top: 20px;
@@ -167,12 +157,9 @@ legend {
   color: white;
   padding: 10px 0;
   background-color: grey;
-  
-
 }
 
 fieldset {
-  padding: 20px;
   border: solid 1px grey;
   background: url("../images/Form/daisy-form3.gif");
   margin: 10px 0;
@@ -186,7 +173,6 @@ textarea {
   display: block;
   width: 50%;
   font-family: monospace;
-
 }
 
 input[type='radio']
@@ -194,7 +180,6 @@ input[type='radio']
   padding: 10px;
   border: solid 1px;
   display: inline-block;
-
 }
 
 input[type='submit']
@@ -226,30 +211,3 @@ footer p{
   margin-left: 85%;
 }
 
-/*.flex-container {
-  margin: 1em 0;
-  border: 1px solid black;
-  display: flex;
-  flex-wrap: wrap;
-  width: 1200px;
-}
-
-div {
-  border: 1px solid black;
-}
-
-h1 {
-	font-family: 'Libre Baskerville', serif;
-}
-
-.row {
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-height: 150px;
-  width: 1200px;
-  margin: 0;
-  padding: 0;
-  justify-content: space-between;
-}
-*/
