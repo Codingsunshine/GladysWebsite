@@ -2,446 +2,236 @@
 font-family: 'Libre Franklin', sans-serif;
 font-family: 'Gentium Basic', serif;*/
 
-.first-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #b9d83e;
-}
 
-.column-split {
-  height: 55px;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  background-color: #b9d83e;
-}
+/*CSS - For Phone*/
+@media screen and (max-width: 450px){
 
-.empty-top {
-	background-color: #b9d83e;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-bottom: 0;
-	height: 1px;
-	background-position: center;
-	min-width: 100%;
-}
+		.box-top-logo {
+		background-image: url("../images/Logo/GladysLogo.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin-bottom: 0;
+		height: 250px;
+		background-position: center;
+		min-width: 100%;
+		height: 250px;
+		}
 
-.box-top-logo {
-	background-image: url("../images/Logo/GladysLogo.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-bottom: 0;
-	height: 500px;
-	background-position: center;
-	min-width: 100%;
+	h1 {
+		font-family: 'Libre Baskerville', serif;
+		font-size: 1.5em;
+		margin: 0 0 0 2px;
+	}
 
-}
+	h2 {
+		font-size: 1em;
+		margin: 0 0 0 1px;
+	}
 
+	.column-small {
+	  display: flex;
+	  flex-flow: column;
+	  flex-direction: column;
+	  flex-wrap: wrap;
+	  height: 175px;
+	  width: 250px;
 
-.box-top-logo h3 {
-	padding: 20px;
-	background: white;
-	opacity: .5;
-	border: solid #f9f7f7 5px;
-	height: 20px;
-	width: 340px;
-	text-transform: uppercase;
-	margin: 0 auto;
-	position: relative;
-	top: 40%;
-}
+	}
+	h3 {
+		margin-top: 25px;
+		font-family: 'Libre Baskerville', serif;
+		font-size: 23px;
+		margin-bottom: 25px;
+	}
 
-.paragraph-box {
-	background: #fffbdd;
-	height: 300px;
-	min-width: 100%;
-	/*47aa2c*/
-}
+#special-img2 {
+		background-image: url("../images/Services/landscape-pic.jpg");
+		background-size: cover;
+		background-position: center;
+		border-radius: 50%;
+		vertical-align: bottom;
+		margin: 25px 0;
 
-.paragraph {
-	width: 800px;
-	display: inline-block;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 25px;
-	margin: 0 auto;
-	/*color: #15ad0d;*/
-	margin-top: 45px;
-
-}
-
-.paragraph p {
-	margin-top: 20px;
-	font-family: 'Libre Franklin', serif;
-	font-size: 14px;
-}
-
-body {
-  min-height: 100%;
-  font: 14px Comic Sans MS;
-  margin: 0 auto;
-  font-family: 'Gentium Basic', serif;
-  max-width: cover;
-}
-
-.flex-container {
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-h1 {
-	font-family: 'Libre Baskerville', serif;
-	font-size: 30px;
-	/*padding-right: 102px;*/
-	margin: 0 0 0 35px;
-}
-
-h2 {
-	font-size: 15px;
-	margin: 0 0 0 53px;
-}
-
-h3 {
-	margin-top: 50px;
-	font-family: 'Libre Baskerville', serif;
-	font-size: 23px;
-	margin-bottom: 25px;
-}
+	}
 
 #special-img {
-	background-image: url("../images/Services/occasion-pic.jpg");
-	background-size: cover;
-	background-position: center;
-	border-radius: 50%;
-	vertical-align: bottom;
-	margin: 25px 0;
+		display: none;
+	}
+
+
+.paragraph-box {
+		background: #fffbdd;
+		height: 375px;
+		min-width: 100%;
+		/*47aa2c*/
+	}
+
+.column-medium {
+	  display: flex;
+	  flex-flow: column;
+	  height: 425px;
+	  width: 100%;
+	}
+
+.fourth {
+	  display: flex;
+	  flex-flow: column;
+	  height: 450px;
+	  justify-content: space-between;
+	  flex-wrap: wrap;
+	  background: #fcf5c4;;
+	}
+
+.fifth {
+	  position: relative;
+	  height: 60px;
+	  /*justify-content: space-between;*/
+	  flex-wrap: nowrap;
+	  background: #f4e8bc;
+	  margin-top: 390px;
+	}
+
+.box-footer {
+	  display: flex;
+	  /*justify-content: space-around;*/
+	  flex-flow: column;
+	  height: 60px;
+	  width: 50%;
+	  text-align: center;
+	}
+
+.box-footer p {
+	height: 10px;
+	width: 100px;
+	margin: 0 0 0 0;
+	}
+
+.mobile-hidden {
+	display: none;
+}
+
 
 }
 
-#landscape-img{
-	background-image: url("../images/Services/landscape-pic.jpg");
-	background-size: cover;
-	background-position: center;
-	border-radius: 50%;
-	margin: 25px 0;
+
+
+
+/*-----------------------------------------------------------------------------------*/
+
+/*CSS - For Desktop*/
+@media screen and (min-width: 451px){	
+
+.box-top-logo {
+		background-image: url("../images/Logo/GladysLogo.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin-bottom: 0;
+		height: 500px;
+		background-position: center;
+		min-width: 100%;
+}
+	h1 {
+		font-family: 'Libre Baskerville', serif;
+		font-size: 1.875em;
+		margin: 0 0 0 1em;
+	}
+
+	h2 {
+		font-size: .9375em;
+		margin: 0 0 0 2.2em;
+	}
+
+	.column-small {
+	  display: flex;
+	  flex-flow: column;
+	  flex-wrap: wrap;
+	  height: 175px;
+	  width: 200px;
+
+	}
+	h3 {
+		margin-top: 50px;
+		font-family: 'Libre Baskerville', serif;
+		font-size: 23px;
+		margin-bottom: 25px;
+	}
+
+#special-img2 {
+		display: none;
+	}
+
+#special-img {
+		background-image: url("../images/Services/occasion-pic.jpg");
+		background-size: cover;
+		background-position: center;
+		border-radius: 50%;
+		vertical-align: bottom;
+		margin: 25px 0;
+
+	}
+
+.paragraph-box {
+		background: #fffbdd;
+		height: 300px;
+		min-width: 100%;
+		/*47aa2c*/
+	}
+
+.column-medium {
+	  display: flex;
+	  flex-flow: column;
+	  height: 425px;
+	  width: 50%;
+	}
+
+.fourth {
+	  height: 450px;
+	  justify-content: space-between;
+	  flex-wrap: nowrap;
+	  background: #fcf5c4;;
+	}
+
+.fifth {
+	  height: 60px;
+	  justify-content: space-between;
+	  flex-wrap: nowrap;
+	  background: #f4e8bc;
+	}
+
+.box-footer {
+	  display: flex;
+	  /*justify-content: space-around;*/
+	  flex-flow: column;
+	  height: 60px;
+	  width: 30%;
+	  text-align: center;
+	}
+
+	.box-footer p {
+	height: 16px;
+	width: 200px;
+	}
+
+
+.mobile-hidden {
+	display: inline;
+}
 }
 
-#watering-img {
-	background-image: url("../images/Services/watering-pic.jpg");
-	background-size: cover;
-	background-position: center;
-	border-radius: 50%;
-	margin: 25px 0;
-}
-#additional-img {
-	background-image: url("../images/Services/away-pic.jpg");
-	background-size: cover;
-	background-position: center;
-	border-radius: 50%;
-	margin: 25px 0;
-}
+/*-----------------------------------------------------------------------------------------------------------*/
 
-.box-services a {
-	text-decoration: none;
-	color: white;
-	font-family: 'Libre Baskerville', serif;
-	text-align: center;
-	line-height: 150px;
-	font-size: 15px;
-	margin: 15px 0;
-	padding: 0;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: 0;
-  padding: 0;
- 
-}
-
-#first {
-	justify-content: flex-start;
-	width: 50%;
-}
 
 #nav-row {
 	justify-content: flex-end;
 	width: 50%;
 }
 
-.second {
-  height: 225px;
-  justify-content: space-around;
-  background: #fcf5c4;
-}
-
-.third {
-  height: 380px;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  background-image: url("../images/Testimonials/grass-img.gif");
-	background-size: cover;
-	background-position: center;
-}
-
-.fourth {
-  height: 450px;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  background: #fcf5c4;;
-}
-
-.fifth {
-  height: 60px;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  background: #f4e8bc;
-}
-
-.services {
-	max-height: 600px;
-	margin: 0;
-}
-
-
-.column-small {
-  display: flex;
-  flex-flow: column;
-  flex-wrap: wrap;
-  height: 175px;
-  width: 200px;
-
-}
-
-.column-medium {
-  display: flex;
-  flex-flow: column;
-  height: 425px;
-  width: 50%;
-}
-
-.box-footer {
-  display: flex;
-  justify-content: space-around;
-  flex-flow: column;
-  height: 60px;
-  width: 30%;
-  text-align: center;
-}
-
-.box-footer p {
-height: 16px;
-width: 200px;
-}
-
-#container {
-	opacity: 1;
-	width: 800px;
-	overflow: hidden;
-	margin: 30px auto;
-	background-image: url("../images/Testimonials/testimonialblankx.gif");
-	background-position: center;
-	background-repeat: no-repeat;
-	/*background: #f9d986;*/
-	
-}
-
-
-#container img {
-	margin-right: 200px;
-	width: 400px;
-	height: 300px;
-}
- 
-#container h1 {
-	opacity: 1;
-	width: 600px;
-	font-family: 'Libre Baskerville', serif;
-	font-size: 23px;
-	margin: 0 auto;
-	text-align: center;
-	margin-bottom: 5px;
-	}
-
-#container p {
-	opacity: 1;
-	width: 600px;
-	font-family: 'Libre Franklin', serif;
-	font-size: 14px;
-	margin: 0 auto;
-	text-align: center;
-}
- 
-/*photobanner*/
- 
-/*.photobanner {
-	background-image: url("../images/Testimonials/testimonialblankx.gif");
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 600px;
-	width: 960px;
-	margin-bottom: 80px;
-	background-repeat: no-repeat;
-	margin: 0 auto;
-}*/
-
-/*keyframe animations*/
-.first-move {
-	-webkit-animation: bannermove 45s linear infinite;
-	   -moz-animation: bannermove 45s linear infinite;
-	    -ms-animation: bannermove 45s linear infinite;
-	     -o-animation: bannermove 45s linear infinite;
-	        animation: bannermove 45s linear infinite;
-}
- 
-@keyframes "bannermove" {
- 0% {
-    margin-left: 0px;
- }
- 100% {
-    margin-left: -1000px;
- }
- 
-}
- 
-@-moz-keyframes bannermove {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -1000px;
- }
- 
-}
- 
-@-webkit-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -1000px;
- }
- 
-}
- 
-@-ms-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -1000px;
- }
- 
-}
- 
-@-o-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
-   /*margin-left: 0px;*/
- }
- 100% {
-   margin-left: -500px;
-   /*margin-left: -2125px;*/
- }
- 
-}
-.photobanner {
-	height: 375px;
-	width: 1200px;
-}
- 
-.photobanner img {
-	-webkit-transition: all 2s ease;
-	-moz-transition: all 2s ease;
-	-o-transition: all 2s ease;
-	-ms-transition: all 2s ease;
-	transition: all 2s ease;
-}
- 
-.photobanner img:hover {
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-o-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
-	cursor: pointer;
- 
-	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-}
-
-.column-location {
-	height: ;
-}
-
-/*
-
-Responsive Section
-
-base  sizes
-small phone: 320px;
-tablet: 512px;
-desktop: 960px;
-
-#wrapper {
-	width: 320px; mobile first lowest common denominator em looks at parent container for sizing rem looks at current element
-	border-radius: 25px;
-	margin: auto;
-	background: white;
-	padding: 1rem;
-	font-size: 1rem;
-}
-
-#phone {
-    background: magenta;
-    display: none;
-}
-
-
-
-@media (min-width: 320px){
-	#phone {
-        display: block;
-    }
-}
-
-@media (min-width: 320px){
-	#tablet {
-        display: block;
-    }
-    #phone {
-		display: none;
-	}
-}
-
-@media (min-width: 960px){
-	#desktop {
-	        display: block;
-	    }
-	#tablet {
-        display: none;
-    }
-	#phone {
-		display: none;
-	}
-}
-
-*/
-
 /* Add a black background color to the top navigation */
 .topnav {
 	margin: auto;
     background-color: #333;
     overflow: hidden;
+    position: relative;
 
 }
 
@@ -472,46 +262,379 @@ desktop: 960px;
 	margin-right: 15px;
 }
 
-
-.box-calendar {
-	background-image: url("../images/Calendar/calendar2-350px.gif");
-	background-repeat: no-repeat;
-	margin-bottom: 0;
-	height: 300px;
-	width: 250px;
-	background-position: center;
-	min-width: 100%;
-	opacity: .8;
+nav a.mobile_menu {
+	width: 32px;
+	height: 32px;
+	background: url(../images/phone-menu.gif) no-repeat 0 0;
+	background-size: contain;
+	position: absolute;
+	top: 22px;
+	left: 50%;
+	margin-left: -16px;
 }
+	
+	
+	.first-row {
+	  display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  width: 100%;
+	  margin: 0;
+	  padding: 0;
+	  background-color: #b9d83e;
+	}
 
-.box-map {
-	margin: 0 auto;
-	text-align: center;
-	vertical-align: center;
-}
+	.column-split {
+	  height: 55px;
+	  justify-content: space-between;
+	  flex-wrap: nowrap;
+	  background-color: #b9d83e;
+	}
 
-.box-map ul {
-	list-style: none;
-}
+	.empty-top {
+		background-color: #b9d83e;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin-bottom: 0;
+		height: 1px;
+		background-position: center;
+		min-width: 100%;
+	}
 
-#map {
-	margin: 0 auto;
-}
+	/*.box-top-logo {
+		background-image: url("../images/Logo/GladysLogo.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin-bottom: 0;
+		height: 500px;
+		background-position: center;
+		min-width: 100%;
 
-.button {
-	text-decoration: none;
-	border: solid 2px #9894ba;
-	display: inline-block;
-	border-radius: 5px;
-	margin: 0 auto;
-	text-align: center;
-	vertical-align: center;
-	margin-bottom: 15px;
-	background: #dddce5;
-	padding: 3px;
-}
+	}*/
 
-.signup-link {
-	display: inline-block;
-	text-decoration: none;
+
+	.box-top-logo h3 {
+		padding: 20px;
+		background: white;
+		opacity: .5;
+		border: solid #f9f7f7 5px;
+		height: 20px;
+		width: 340px;
+		text-transform: uppercase;
+		margin: 0 auto;
+		position: relative;
+		top: 40%;
+	}
+
+
+	.paragraph {
+		/*width: 800px;*/
+		width: 75%;
+		display: inline-block;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 1.56em;
+		margin: 0 auto;
+		/*color: #15ad0d;*/
+		margin-top: 45px;
+
+	}
+
+	.paragraph p {
+		margin-top: 20px;
+		font-family: 'Libre Franklin', serif;
+		font-size: 14px;
+	}
+
+	body {
+	  min-height: 100%;
+	  font: 14px Comic Sans MS;
+	  margin: 0 auto;
+	  font-family: 'Gentium Basic', serif;
+	  max-width: cover;
+	}
+
+	.flex-container {
+	  margin: 0;
+	  display: flex;
+	  flex-wrap: wrap;
+	  width: 100%;
+	}
+
+
+	
+	
+	#landscape-img{
+		background-image: url("../images/Services/landscape-pic.jpg");
+		background-size: cover;
+		background-position: center;
+		border-radius: 50%;
+		margin: 25px 0;
+	}
+
+	#watering-img {
+		background-image: url("../images/Services/watering-pic.jpg");
+		background-size: cover;
+		background-position: center;
+		border-radius: 50%;
+		margin: 25px 0;
+	}
+	#additional-img {
+		background-image: url("../images/Services/away-pic.jpg");
+		background-size: cover;
+		background-position: center;
+		border-radius: 50%;
+		margin: 25px 0;
+	}
+
+	.box-services a {
+		text-decoration: none;
+		color: white;
+		font-family: 'Libre Baskerville', serif;
+		text-align: center;
+		line-height: 150px;
+		font-size: 15px;
+		margin: 15px 0;
+		padding: 0;
+	}
+
+	.row {
+	  display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  width: 100%;
+	  /*margin: 0;*/
+	  padding: 0;
+	 
+	}
+
+	#first {
+		justify-content: flex-start;
+		width: 50%;
+	}
+
+	.second {
+	  height: 225px;
+	  justify-content: space-around;
+	  background: #fcf5c4;
+	}
+
+	.third {
+	  height: 380px;
+	  justify-content: space-between;
+	  flex-wrap: nowrap;
+	  background-image: url("../images/Testimonials/grass-img.gif");
+		background-size: cover;
+		background-position: center;
+	}
+
+	
+
+	.services {
+		max-height: 600px;
+		margin: 0;
+	}
+
+	
+
+	#container {
+		opacity: 1;
+		width: 800px;
+		overflow: hidden;
+		margin: 30px auto;
+		background-image: url("../images/Testimonials/testimonialblankx.gif");
+		background-position: center;
+		background-repeat: no-repeat;
+		/*background: #f9d986;*/
+		
+	}
+
+
+	#container img {
+		margin-right: 200px;
+		width: 400px;
+		height: 300px;
+	}
+	 
+	#container h1 {
+		opacity: 1;
+		width: 600px;
+		font-family: 'Libre Baskerville', serif;
+		font-size: 23px;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 5px;
+		}
+
+	#container p {
+		opacity: 1;
+		width: 600px;
+		font-family: 'Libre Franklin', serif;
+		font-size: 14px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+
+	/*keyframe animations*/
+	.first-move {
+		-webkit-animation: bannermove 45s linear infinite;
+		   -moz-animation: bannermove 45s linear infinite;
+		    -ms-animation: bannermove 45s linear infinite;
+		     -o-animation: bannermove 45s linear infinite;
+		        animation: bannermove 45s linear infinite;
+	}
+	 
+	@keyframes "bannermove" {
+	 0% {
+	    margin-left: 0px;
+	 }
+	 100% {
+	    margin-left: -1000px;
+	 }
+	 
+	}
+	 
+	
+	.photobanner {
+		height: 375px;
+		width: 1200px;
+	}
+	 
+	.photobanner img {
+		-webkit-transition: all 2s ease;
+		-moz-transition: all 2s ease;
+		-o-transition: all 2s ease;
+		-ms-transition: all 2s ease;
+		transition: all 2s ease;
+	}
+	 
+	.photobanner img:hover {
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-o-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		transform: scale(1.1);
+		cursor: pointer;
+	 
+		-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+		-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+		box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+	}
+
+	.column-location {
+		height: ;
+	}
+
+
+
+	.box-calendar {
+		background-image: url("../images/Calendar/calendar2-350px.gif");
+		background-repeat: no-repeat;
+		margin-bottom: 0;
+		height: 300px;
+		width: 250px;
+		background-position: center;
+		min-width: 100%;
+		opacity: .8;
+	}
+
+	.box-map {
+		margin: 0 auto;
+		text-align: center;
+		vertical-align: center;
+	}
+
+	.box-map ul {
+		list-style: none;
+	}
+
+	#map {
+		margin: 0 auto;
+	}
+
+	.button {
+		text-decoration: none;
+		border: solid 2px #9894ba;
+		display: inline-block;
+		border-radius: 5px;
+		margin: 0 auto;
+		text-align: center;
+		vertical-align: center;
+		margin-bottom: 15px;
+		background: #dddce5;
+		padding: 3px;
+	}
+
+	.signup-link {
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	
+
+
+-----------------------------------------------------------------------------------------
+
+
+
+
+
+	/*.topnav {
+	    background-color: #333;
+	    overflow: hidden;
+	    position: relative;
+	    padding: 50px 15px 20px 15px;
+
+	}
+
+	/* Style the links inside the navigation bar *//*
+	.topnav a {
+	    float: left;
+	    display: block;
+	    color: #f2f2f2;
+	    text-align: center;
+	    padding: 16px 25px;
+	    text-decoration: none;
+	    font-size: 17px;
+	}*/
+
+	/* Change the color of links on hover */
+	/*.topnav a:hover {
+	    background-color: #b5a989;
+	    color: black;
+	}
+
+	/* Add a color to the active/current link */
+	/*.topnav a.active {
+	    background-color: #4CAF50; 
+	    color: white;
+	}
+
+	.topnav a{
+		margin-right: 15px;
+	}
+
+	h1 {
+		font-family: 'Libre Baskerville', serif;
+		font-size: 1.875em;
+		margin-left: 0;
+	}
+
+	h2 {
+		font-size: .9375em;
+		margin-left: 0;
+	}
+
+
+   }
+   
+    #desktop {
+        display: none;
+    }
 }
+*/
+
+
+
+
