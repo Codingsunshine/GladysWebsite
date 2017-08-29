@@ -232,7 +232,6 @@ font-family: 'Gentium Basic', serif;*/
 	#col-tiny {
 		margin: 0 auto;
 	  display: flex;
-	  justify-content: space-around;
 	  flex-flow: column;
 	  height: 70px;
 	  width: 30%;
