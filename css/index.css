@@ -81,19 +81,26 @@ font-family: 'Gentium Basic', serif;*/
 		padding-left: 0;
 	}
 
+
 	.fifth {
-	  position: relative;
-	  height: 60px;
+		position: absolute;
 	  flex-wrap: nowrap;
 	  background: #f4e8bc;
-	  margin-top: 390px;
+	  margin-top: 400px;
 	}
 
 	.box-footer {
 	  display: flex;
 	  flex-flow: column;
+	  width: 43%;
+	  text-align: center;
+	  margin: 0 auto;
+	}
+
+	#col-tiny {
+		margin-top: 450px;
 	  height: 60px;
-	  width: 50%;
+	  width: 1%;
 	  text-align: center;
 	}
 
@@ -103,9 +110,10 @@ font-family: 'Gentium Basic', serif;*/
 		margin: 0 0 0 0;
 	}
 
-	.mobile-hidden {
-		display: none;
-	}
+.mobile-hidden {
+	display: none;
+}
+
 
 }
 
@@ -221,14 +229,20 @@ font-family: 'Gentium Basic', serif;*/
 		text-align: center;
 	}
 
+	#col-tiny {
+		margin: 0 auto;
+	  display: flex;
+	  justify-content: space-around;
+	  flex-flow: column;
+	  height: 70px;
+	  width: 30%;
+		text-align: center;
+	}
+
 	.box-footer p {
 		margin: 0 auto;
 		height: 16px;
 		width: 200px;
-	}
-
-	.mobile-hidden {
-		display: inline;
 	}
 
 }
