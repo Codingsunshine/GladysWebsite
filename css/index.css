@@ -19,13 +19,13 @@ font-family: 'Gentium Basic', serif;*/
 
 	h1 {
 		font-family: 'Libre Baskerville', serif;
-		font-size: 1.5em;
-		margin: 0 0 0 2px;
+		font-size: 1.1em;
+		margin: 10px 0 0 21px;
 	}
 
 	h2 {
-		font-size: 1em;
-		margin: 0 0 0 1px;
+		font-size: .85em;
+		margin: 0 0 0 25px;
 	}
 
 	.column-small {
@@ -70,7 +70,7 @@ font-family: 'Gentium Basic', serif;*/
 	  display: flex;
 	  flex-flow: column;
 	  height: 425px;
-	  width: 100%;
+	  width: 120%;
 	}
 
 .fourth {
@@ -80,6 +80,10 @@ font-family: 'Gentium Basic', serif;*/
 	  justify-content: space-between;
 	  flex-wrap: wrap;
 	  background: #fcf5c4;;
+	}
+
+ul {
+		padding-left: 0;
 	}
 
 .fifth {
@@ -195,30 +199,44 @@ font-family: 'Gentium Basic', serif;*/
 	  width: 50%;
 	}
 
+.inner-fourth {
+	margin: 0 auto;
+	display: flex;
+	  flex-direction: row;
+	  flex-wrap: nowrap;
+	  height: 450px;
+	  justify-content: space-around;
+	  background: #fcf5c4;
+	  width: 75%;
+}
+
 .fourth {
 	  height: 450px;
 	  justify-content: space-between;
 	  flex-wrap: nowrap;
-	  background: #fcf5c4;;
+	  background: #fcf5c4;
 	}
 
+
 .fifth {
-	  height: 60px;
+	  height: 70px;
 	  justify-content: space-between;
 	  flex-wrap: nowrap;
 	  background: #f4e8bc;
 	}
 
 .box-footer {
+	margin: 0 auto;
 	  display: flex;
-	  /*justify-content: space-around;*/
+	  justify-content: space-around;
 	  flex-flow: column;
-	  height: 60px;
+	  height: 70px;
 	  width: 30%;
-	  text-align: center;
+	text-align: center;
 	}
 
 	.box-footer p {
+		margin: 0 auto;
 	height: 16px;
 	width: 200px;
 	}
@@ -227,8 +245,6 @@ font-family: 'Gentium Basic', serif;*/
 .mobile-hidden {
 	display: inline;
 }
-
-
 
 
 }
