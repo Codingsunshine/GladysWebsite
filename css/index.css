@@ -4,8 +4,8 @@ font-family: 'Gentium Basic', serif;*/
 
 
 /*CSS - For Phone - Begin */
-@media screen and (max-width: 450px){
-		.box-top-logo {
+@media screen and (max-width: 360px){
+	.box-top-logo {
 		background-image: url("../images/Logo/GladysLogo.jpg");
 		background-repeat: no-repeat;
 		background-size: 100%;
@@ -58,9 +58,7 @@ font-family: 'Gentium Basic', serif;*/
 
 	.paragraph-box {
 		background: #fffbdd;
-		height: 375px;
 		min-width: 100%;
-		/*47aa2c*/
 	}
 
 	.column-medium {
@@ -86,7 +84,6 @@ font-family: 'Gentium Basic', serif;*/
 	.fifth {
 	  position: relative;
 	  height: 60px;
-	  /*justify-content: space-between;*/
 	  flex-wrap: nowrap;
 	  background: #f4e8bc;
 	  margin-top: 390px;
@@ -94,7 +91,6 @@ font-family: 'Gentium Basic', serif;*/
 
 	.box-footer {
 	  display: flex;
-	  /*justify-content: space-around;*/
 	  flex-flow: column;
 	  height: 60px;
 	  width: 50%;
@@ -102,13 +98,13 @@ font-family: 'Gentium Basic', serif;*/
 	}
 
 	.box-footer p {
-	height: 10px;
-	width: 100px;
-	margin: 0 0 0 0;
+		height: 10px;
+		width: 100px;
+		margin: 0 0 0 0;
 	}
 
 	.mobile-hidden {
-	display: none;
+		display: none;
 	}
 
 }
@@ -117,7 +113,7 @@ font-family: 'Gentium Basic', serif;*/
 /*-----------------------------------------------------------------------------------*/
 
 /*CSS - For Desktop - Begin*/
-@media screen and (min-width: 451px){	
+@media screen and (min-width: 361px){	
 	.box-top-logo {
 		background-image: url("../images/Logo/GladysLogo.jpg");
 		background-repeat: no-repeat;
@@ -325,7 +321,7 @@ nav a.mobile_menu {
 	opacity: .5;
 	border: solid #f9f7f7 5px;
 	height: 20px;
-	width: 340px;
+	width: 300px;
 	text-transform: uppercase;
 	margin: 0 auto;
 	position: relative;
@@ -482,6 +478,46 @@ body {
  100% {
     margin-left: -1000px;
  }
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -1000px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -1000px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -1000px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -1000px;
+ }
+ 
 }
  
 .photobanner {
